@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+  img.img-tickitz {
+    width: 15rem;
+  }
+
+  .hero-head > .col-lg-5{
+    padding: 2.5rem 0;
+    height: auto !important;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+    height: 2.8rem;
+  }
+
+  .btn-google {
+    margin-bottom: 1rem;
+  }
+
+  img.img-eye {
+    bottom: .8rem;
+  }
+}

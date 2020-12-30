@@ -1,0 +1,37 @@
+{
+  "name": "tickitz",
+  "version": "1.0.0",
+  "description": "Booking Ticket Online with Bootstrap",
+  "main": "script.js",
+  "scripts": {
+    "start": "npx mix watch",
+    "prod": "npx mix production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathiuskormasela12/tickitz.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SCSS",
+    "Bootstrap"
+  ],
+  "author": "Mathius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathiuskormasela12/tickitz/issues"
+  },
+  "homepage": "https://github.com/mathiuskormasela12/tickitz#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.5",
+    "postcss": "^8.2.2",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^8.0.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
