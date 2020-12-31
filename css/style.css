@@ -70,6 +70,7 @@ div.hero section.container-fluid .hero-head .col-xl-5 {
   height: 3.1rem;
   color: white;
   transition: opacity 0.5s;
+  padding: 0;
 }
 
 .btn-signin:hover {
@@ -173,6 +174,10 @@ hr.hr {
     height: 2.8rem;
   }
 
+  .btn.btn-signin {
+    padding: 0;
+  }
+
   .btn-google {
     margin-bottom: 1rem;
   }
@@ -182,9 +187,13 @@ hr.hr {
   }
 }
 @media screen and (max-width: 320px) {
-  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
     height: 2.5rem;
     padding-left: 0.5rem;
+  }
+
+  .btn.btn-signin {
+    padding: 0;
   }
 
   ::-moz-placeholder {
@@ -199,13 +208,17 @@ hr.hr {
     font-size: 0.8rem;
   }
 
+  img.img-google, img.img-facebook {
+    left: 1.3rem;
+  }
+
   img.img-eye {
     bottom: 0.8rem;
     width: 1rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
     height: 4.5rem;
   }
 
@@ -217,6 +230,10 @@ hr.hr {
   img.img-eye {
     bottom: 1.5rem;
     right: 1.5rem;
+  }
+
+  .btn.btn-signin {
+    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1580px) {
@@ -230,5 +247,9 @@ hr.hr {
 
   .container {
     width: 98% !important;
+  }
+
+  .btn.btn-signin {
+    padding: 0;
   }
 }

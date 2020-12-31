@@ -16,6 +16,10 @@
     height: 2.8rem;
   }
 
+  .btn.btn-signin {
+    padding: 0;
+  }
+
   .btn-google {
     margin-bottom: 1rem;
   }
@@ -26,13 +30,21 @@
 }
 
 @media screen and (max-width:320px) {
-  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
     height: 2.5rem;
     padding-left: .5rem;
   }
 
+  .btn.btn-signin {
+    padding: 0;
+  }
+
   ::placeholder {
     font-size: .8rem;
+  }
+
+  img.img-google, img.img-facebook {
+    left: 1.3rem;
   }
 
   img.img-eye {
@@ -42,7 +54,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
-  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
     height: 4.5rem;
   }
   .hero-head > .col-xl-5 {
@@ -52,6 +64,9 @@
   img.img-eye {
     bottom: 1.5rem;
     right: 1.5rem;
+  }
+  .btn.btn-signin {
+    padding: 0;
   }
 }
 
@@ -64,6 +79,9 @@
   }
   .container {
     width: 98% !important;
+  }
+  .btn.btn-signin {
+    padding: 0;
   }
 }
 
