@@ -140,7 +140,7 @@ img.img-facebook, img.img-google {
   left: 1rem;
 }
 
-img.img-eye {
+div.img-eye {
   position: absolute;
   right: 1rem;
   cursor: pointer;
@@ -271,7 +271,7 @@ span.vertical-line {
     margin-bottom: 1rem;
   }
 
-  img.img-eye {
+  div.img-eye {
     bottom: 0.8rem;
   }
 }
@@ -313,7 +313,7 @@ span.vertical-line {
     margin-right: 0.5rem;
   }
 
-  img.img-eye {
+  div.img-eye {
     right: 0.6rem;
     bottom: 0.7rem;
     width: 1rem;
@@ -358,7 +358,7 @@ span.vertical-line {
     height: auto !important;
   }
 
-  img.img-eye {
+  div.img-eye {
     bottom: 1rem;
     right: 1.2rem;
   }
@@ -395,7 +395,7 @@ span.vertical-line {
     width: 90%;
   }
 
-  img.img-eye {
+  div.img-eye {
     bottom: 0.8rem;
     right: 1.2rem;
   }
