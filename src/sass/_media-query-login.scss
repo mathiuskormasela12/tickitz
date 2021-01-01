@@ -51,19 +51,48 @@
     bottom: .8rem;
     width: 1rem;
   }
+
+  .btn-google {
+    margin-bottom: 1rem;
+  }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .btn-google {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px) {
   .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
-    height: 4.5rem;
+    height: 3.2rem;
   }
   .hero-head > .col-xl-5 {
     padding: 7.5rem 0;
     height: auto !important;
   }
   img.img-eye {
-    bottom: 1.5rem;
-    right: 1.5rem;
+    bottom: 1rem;
+    right: 1.2rem;
+  }
+  .btn.btn-signin {
+    padding: 0;
+  }
+  .btn-google {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 968px) and (max-width: 1200px) {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+    height: 2.9rem;
+  }
+  .container {
+    width: 90%;
+  }
+  img.img-eye {
+    bottom: .8rem;
+    right: 1.2rem;
   }
   .btn.btn-signin {
     padding: 0;
@@ -78,7 +107,7 @@
     left: .9rem;
   }
   .container {
-    width: 98% !important;
+    width: 95% !important;
   }
   .btn.btn-signin {
     padding: 0;

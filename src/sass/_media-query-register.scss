@@ -1,0 +1,126 @@
+@media screen and (max-width: 600px) {
+  img.img-tickitz {
+    width: 15rem;
+  }
+
+  .hero-head > .col-xl-5{
+    padding: 2.5rem 0;
+    height: auto !important;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .text-description {
+    width: 100%;
+  }
+
+  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+    height: 2.8rem;
+  }
+
+  .btn.btn-signin {
+    padding: 0;
+  }
+
+  .btn-google {
+    margin-bottom: 1rem;
+  }
+
+  img.img-eye {
+    bottom: .8rem;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+    height: 2.5rem;
+    padding-left: .5rem;
+  }
+
+  .btn.btn-signin {
+    padding: 0;
+  }
+
+  ::placeholder {
+    font-size: .8rem;
+  }
+
+  img.img-google, img.img-facebook {
+    left: 1.3rem;
+  }
+
+  img.img-eye {
+    bottom: .8rem;
+    width: 1rem;
+  }
+
+  .btn-google {
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .btn-google {
+    margin-bottom: 1rem;
+  }
+  .text-description {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px) {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+    height: 3.2rem;
+  }
+  .hero-head > .col-xl-5 {
+    padding: 7.5rem 0;
+    height: auto !important;
+  }
+  img.img-eye {
+    bottom: 1rem;
+    right: 1.2rem;
+  }
+  .btn.btn-signin {
+    padding: 0;
+  }
+  .btn-google {
+    margin-bottom: 1rem;
+  }
+  .text-description {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 968px) and (max-width: 1200px) {
+  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+    height: 2.9rem;
+  }
+  .container {
+    width: 90%;
+  }
+  img.img-eye {
+    bottom: .8rem;
+    right: 1.2rem;
+  }
+  .btn.btn-signin {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1580px) {
+  img.img-tickitz {
+    width: 20rem;
+  }
+  img.img-facebook {
+    left: .9rem;
+  }
+  .container {
+    width: 95% !important;
+  }
+  .btn.btn-signin {
+    padding: 0;
+  }
+}
+

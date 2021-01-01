@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+  img.img-tickitz {
+    width: 10rem;
+  }
+
+  .hero-head > .col-xl-5{
+    height: 95vh !important;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .text-description {
+    width: 100%;
+  }
+
+  .input-active, .btn-active {
+    height: 2.8rem;
+  }
+
+  .btn.btn-active {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .input-active, .btn-active {
+    height: 2.5rem;
+    padding-left: .5rem;
+  }
+
+  .btn.btn-active {
+    padding: 0;
+  }
+
+  ::placeholder {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 968px) {
+  .input-active, .btn-active {
+    height: 3.2rem;
+  }
+  .btn.btn-active {
+    padding: 0;
+  }
+  .text-description {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 968px) and (max-width: 1200px) {
+  .input-active, .btn-active {
+    height: 2.9rem;
+  }
+  .container {
+    width: 90%;
+  }
+  .btn.btn-active {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1580px) {
+  img.img-tickitz {
+    width: 20rem;
+  }
+  .container {
+    width: 95% !important;
+  }
+  .btn.btn-active {
+    padding: 0;
+  }
+}
+

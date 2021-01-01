@@ -8002,10 +8002,34 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./src/sass/style.scss":
+/***/ "./src/sass/login.scss":
 /*!*****************************!*\
-  !*** ./src/sass/style.scss ***!
+  !*** ./src/sass/login.scss ***!
   \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./src/sass/register.scss":
+/*!********************************!*\
+  !*** ./src/sass/register.scss ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
+
+/***/ }),
+
+/***/ "./src/sass/forgot.scss":
+/*!******************************!*\
+  !*** ./src/sass/forgot.scss ***!
+  \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -8088,7 +8112,9 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		var deferredModules = [
 /******/ 			["./src/js/bootstrap.js"],
 /******/ 			["./src/sass/bootstrap.scss"],
-/******/ 			["./src/sass/style.scss"]
+/******/ 			["./src/sass/login.scss"],
+/******/ 			["./src/sass/register.scss"],
+/******/ 			["./src/sass/forgot.scss"]
 /******/ 		];
 /******/ 		// no chunk on demand loading
 /******/ 		
