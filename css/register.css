@@ -62,7 +62,7 @@ div.hero section.container-fluid .hero-head .col-xl-5 {
   height: 3rem !important;
 }
 
-.btn-signin {
+.btn-signup {
   background-color: #5F2EEA;
   outline-color: #5F2EEA !important;
   border-color: #5F2EEA !important;
@@ -73,7 +73,7 @@ div.hero section.container-fluid .hero-head .col-xl-5 {
   padding: 0;
 }
 
-.btn-signin:hover {
+.btn-signup:hover {
   background-color: #5F2EEA;
   color: white;
   opacity: 0.5;
@@ -83,14 +83,14 @@ div.hero section.container-fluid .hero-head .col-xl-5 {
   color: #4E4B66;
 }
 
-.input-signin {
+.input-signup {
   height: 3.1rem;
   box-shadow: none !important;
   outline: none !important;
   padding-left: 1.3rem;
 }
 
-.input-signin:focus {
+.input-signup:focus {
   outline: none !important;
   box-shadow: none !important;
   border-color: #5F2EEA;
@@ -258,11 +258,12 @@ span.vertical-line {
     width: 100%;
   }
 
-  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+  .input-signup, .btn.btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 2.8rem;
+    font-size: 1.1rem;
   }
 
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 
@@ -275,12 +276,12 @@ span.vertical-line {
   }
 }
 @media screen and (max-width: 320px) {
-  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+  .input-signup, .btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 2.5rem;
     padding-left: 0.5rem;
   }
 
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 
@@ -296,17 +297,36 @@ span.vertical-line {
     font-size: 0.8rem;
   }
 
+  img.img-tickitz {
+    width: 10rem;
+  }
+
   img.img-google, img.img-facebook {
-    left: 1.3rem;
+    position: static;
+  }
+
+  img.img-google {
+    margin-right: 1rem;
+  }
+
+  img.img-facebook {
+    margin-right: 0.5rem;
   }
 
   img.img-eye {
-    bottom: 0.8rem;
+    right: 0.6rem;
+    bottom: 0.7rem;
     width: 1rem;
   }
 
   .btn-google {
     margin-bottom: 1rem;
+  }
+
+  .hero > .container-fluid > .hero-head > .col-xl-7 {
+    box-sizing: content-box;
+    min-height: 100vh;
+    padding: 3.5rem 0;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 768px) {
@@ -317,9 +337,19 @@ span.vertical-line {
   .text-description {
     width: 100%;
   }
+
+  div.hero > section.container-fluid > .hero-head > .col-xl-5 {
+    height: auto;
+    padding: 2rem 0;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: landscape) {
+  .btn-google {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 968px) {
-  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+  .input-signup, .btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 3.2rem;
   }
 
@@ -333,7 +363,7 @@ span.vertical-line {
     right: 1.2rem;
   }
 
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 
@@ -345,8 +375,19 @@ span.vertical-line {
     width: 100%;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 968px) and (orientation: landscape) {
+  .btn-google {
+    margin-bottom: 0;
+  }
+
+  .hero > .container-fluid > .hero-head > .col-xl-7 {
+    box-sizing: content-box;
+    min-height: 100vh;
+    padding: 8.5rem 0;
+  }
+}
 @media screen and (min-width: 968px) and (max-width: 1200px) {
-  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+  .input-signup, .btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 2.9rem;
   }
 
@@ -359,7 +400,7 @@ span.vertical-line {
     right: 1.2rem;
   }
 
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 }
@@ -376,7 +417,7 @@ span.vertical-line {
     width: 95% !important;
   }
 
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 }

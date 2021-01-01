@@ -16,11 +16,12 @@
     width: 100%;
   }
 
-  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+  .input-signup, .btn.btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 2.8rem;
+    font-size: 1.1rem;
   }
 
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 
@@ -34,12 +35,12 @@
 }
 
 @media screen and (max-width:320px) {
-  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+  .input-signup, .btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 2.5rem;
     padding-left: .5rem;
   }
 
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 
@@ -47,17 +48,36 @@
     font-size: .8rem;
   }
 
+  img.img-tickitz {
+    width: 10rem;
+  }
+
   img.img-google, img.img-facebook {
-    left: 1.3rem;
+    position: static;
+  }
+
+  img.img-google {
+    margin-right: 1rem;
+  }
+
+  img.img-facebook {
+    margin-right: .5rem;
   }
 
   img.img-eye {
-    bottom: .8rem;
+    right: .6rem;
+    bottom: .7rem;
     width: 1rem;
   }
 
   .btn-google {
     margin-bottom: 1rem;
+  }
+
+  .hero > .container-fluid > .hero-head > .col-xl-7 {
+    box-sizing: content-box;
+    min-height: 100vh;
+    padding: 3.5rem 0;
   }
 }
 
@@ -68,10 +88,20 @@
   .text-description {
     width: 100%;
   }
+  div.hero > section.container-fluid > .hero-head > .col-xl-5 {
+    height: auto;
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: landscape){
+  .btn-google {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 968px) {
-  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+  .input-signup, .btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 3.2rem;
   }
   .hero-head > .col-xl-5 {
@@ -82,7 +112,7 @@
     bottom: 1rem;
     right: 1.2rem;
   }
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
   .btn-google {
@@ -93,8 +123,20 @@
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 968px) and (orientation: landscape) {
+  .btn-google {
+    margin-bottom: 0;
+  }
+  .hero > .container-fluid > .hero-head > .col-xl-7 {
+    box-sizing: content-box;
+    min-height: 100vh;
+    padding: 8.5rem 0;
+  }
+}
+
+
 @media screen and (min-width: 968px) and (max-width: 1200px) {
-  .input-signin, .btn-signin, .btn.btn-google, .btn.btn-facebook {
+  .input-signup, .btn-signup, .btn.btn-google, .btn.btn-facebook {
     height: 2.9rem;
   }
   .container {
@@ -104,7 +146,7 @@
     bottom: .8rem;
     right: 1.2rem;
   }
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 }
@@ -119,8 +161,7 @@
   .container {
     width: 95% !important;
   }
-  .btn.btn-signin {
+  .btn.btn-signup {
     padding: 0;
   }
 }
-

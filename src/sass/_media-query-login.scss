@@ -12,8 +12,9 @@
     width: 90%;
   }
 
-  .input-signin, .btn-signin, .btn-google, .btn-facebook {
+  .input-signin, .btn.btn-signin, .btn.btn-google, .btn.btn-facebook {
     height: 2.8rem;
+    font-size: 1.1rem;
   }
 
   .btn.btn-signin {
@@ -43,12 +44,25 @@
     font-size: .8rem;
   }
 
+  img.img-tickitz {
+    width: 10rem;
+  }
+
   img.img-google, img.img-facebook {
-    left: 1.3rem;
+    position: static;
+  }
+
+  img.img-google {
+    margin-right: 1rem;
+  }
+
+  img.img-facebook {
+    margin-right: .5rem;
   }
 
   img.img-eye {
-    bottom: .8rem;
+    right: .6rem;
+    bottom: .7rem;
     width: 1rem;
   }
 
@@ -58,8 +72,21 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 768px) {
+  img.img-tickitz {
+    width: 18rem;
+  }
   .btn-google {
     margin-bottom: 1rem;
+  }
+  div.hero > section.container-fluid > .hero-head > .col-xl-5 {
+    height: auto;
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) and (orientation: landscape){
+  .btn-google {
+    margin-bottom: 0;
   }
 }
 
@@ -80,6 +107,12 @@
   }
   .btn-google {
     margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px) and (orientation: landscape) {
+  .btn-google {
+    margin-bottom: 0;
   }
 }
 

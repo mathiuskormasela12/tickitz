@@ -54,7 +54,7 @@ div.hero {
   height: 3rem !important;
 }
 
-.btn-signin{
+.btn-signup{
   background-color: $primary-hex;
   outline-color: $primary-hex !important;
   border-color: $primary-hex !important;
@@ -65,7 +65,7 @@ div.hero {
   padding: 0;
 }
 
-.btn-signin:hover {
+.btn-signup:hover {
   background-color: $primary-hex;
   color: white;
   opacity: 0.5;
@@ -75,14 +75,14 @@ div.hero {
   color: $text-form;
 }
 
-.input-signin {
+.input-signup {
   height: 3.1rem;
   box-shadow:none !important;
   outline: none !important;
   padding-left: 1.3rem;
 }
 
-.input-signin:focus {
+.input-signup:focus {
   outline: none !important;
   box-shadow: none !important;
   border-color: $primary-hex;
