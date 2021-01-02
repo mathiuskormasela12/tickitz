@@ -4,7 +4,8 @@
   }
 
   .hero-head > .col-xl-5{
-    height: 95vh !important;
+    height: 100vh !important;
+    padding: 12.5rem 0;
   }
 
   .container {
@@ -29,13 +30,21 @@
     height: 2.5rem;
     padding-left: .5rem;
   }
-
   .btn.btn-active {
     padding: 0;
   }
-
   ::placeholder {
     font-size: .8rem;
+  }
+  .col-xl-5.col-lg-5.col-sm-12.col-md-12 {
+    min-height: 100vh !important;
+    padding: 5.8rem 0;
+    box-sizing: content-box;
+  }
+  .col-xl-7.col-lg-7.col-sm-12.col-md-12 {
+    min-height: 100vh !important;
+    padding: 5.8rem 0;
+    box-sizing: content-box;
   }
 }
 
@@ -48,6 +57,22 @@
   }
   .text-description {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 968px) and (orientation: landscape){
+  .col-xl-5.col-lg-5.col-sm-12.col-md-12 {
+    min-height: 100vh !important;
+    padding: 3.8rem 0;
+    box-sizing: content-box;
+  }
+  .col-xl-7.col-lg-7.col-sm-12.col-md-12 {
+    min-height: 100vh !important;
+    padding: 2rem 0;
+    box-sizing: content-box;
+  }
+  .col-xl-7.col-lg-7.col-sm-12.col-md-12 > .container > .row > .col-xl-12:last-child {
+    display: none !important;
   }
 }
 
