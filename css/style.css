@@ -11233,10 +11233,16 @@ div#home .explore-items {
 div#home input.form-control {
   box-shadow: none !important;
 }
+div#home .text-hero-foot {
+  width: 30%;
+}
 
 @media screen and (max-width: 600px) {
   div#home .title-hero-content::after {
     content: "";
     display: none;
+  }
+  div#home .text-hero-foot {
+    width: 80%;
   }
 }
