@@ -1,0 +1,21 @@
+@media screen and (max-width: 600px) {
+  div#movie-details {
+    // img.img-movie {
+    //   width: auto;
+    // }
+
+    // div.hero-body div.card {
+    //   padding: 2rem;
+    //   min-width: auto !important;
+    //   width: 15rem;
+    // }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+  div#movie-details {
+    [type="date"] {
+      background:#fff url('../img/calendar.svg')  2% 50% no-repeat ;
+    }
+  }
+}
